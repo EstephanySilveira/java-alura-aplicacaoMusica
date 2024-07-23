@@ -25,11 +25,12 @@ public class Audio {
     public double getClassificacao() {
         return classificacao;
     }
-    public void curte() {
+
+    public void curte(){
         this.totalCurtidas++;
     }
 
-    public void reproduz() {
+    public void reproduz(){
         this.totalReproducoes++;
     }
 }
